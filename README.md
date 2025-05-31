@@ -1,14 +1,13 @@
-Script to store encrypted OATH secrets, in a file, and generate totp tokens.
-
+Script to store encrypted OATH secrets, in a file, and generate totp tokens.  
 Written for personal use on the 11th of June 2023, used since.
 
 I don't think it is possible to recover the secrets from the file without the correct password but, once unlocked, the secrets could be available to other users and programs on the same machine.
 Note that the entries' names are not encrypted.
 
 # Requirements:
-`oathtool`
-`openssl`
-`python` >= 3.10
+`oathtool`  
+`openssl`  
+`python` >= 3.10  
 Tested only on Alpine Linux and AlmaLinux, ymmv.
 
 # Use with a Microsoft account (i.e. unimi email, since 2023)
@@ -27,5 +26,5 @@ MS    > ... (confirm token)
 ```
 
 # How to recover the secrets
-Don't. Generate a different secret for each authenticator.
+Don't. Generate a different secret for each authenticator.  
 E+*g/+CHdE?m'B,FD5Z2+EVNEDdda$FDl)6
